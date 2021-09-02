@@ -1,0 +1,179 @@
+*
+body{
+  background: #D0E4F5 url("https://cutewallpaper.org/21/1080p-gif-wallpaper/butlerm-We-have-liftoff-Download-the-1080p-version-or-4K-.gif") no-repeat local 0px 0px;
+  background-size:cover;
+  
+}
+
+h1.nombre{
+  color: #fdf9f9;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #000000, 0 0 30px #595bf5, 0 0 40px #3e41f5, 0 0 55px #595bf5, 0 0 75px #070707;
+    text-align: center;
+    font-size: 45px;
+  
+    padding: 30px;
+    font-size: 45px;
+}
+h2.titulo{
+  color: #FFF;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img.fot{
+  position: relative;
+    top: 50%;
+    
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    opacity: 1;
+    right: 80px;
+}
+td.yo{
+  width: 15%;
+}
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #0f2fe7b2;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: rgb(255, 253, 251);
+  padding: 10px 10px 10px 10px;
+  
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid rgb(250, 248, 248);
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: rgb(212, 208, 208);
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
+
+.sobre {
+    border: 1px solid #333;
+    width: 10px;
+  text-align: center;
+}
+
+.mi{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+   
+}
+.yo{
+  background-color: rgb(18, 72, 219);
+  color: rgb(255, 255, 255);
+  text-size-adjust:initial;
+  
+}
+
+
+.sobre {
+  border: 1px solid #333;
+  width: 10px;
+text-align: center;
+}
+
+.mi{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+ 
+}
+.yo{
+background-color: rgb(18, 72, 219);
+color: rgb(255, 255, 255);
+text-size-adjust:initial;
+
+}.aptitudes {
+  border: 1px solid #333;
+  width: 10px;
+text-align: center;
+ 
+
+}
+
+.ski{
+  background-color: rgb(201, 32, 32);
+  color: rgb(255, 255, 255);
+ 
+}
+.bland{
+background-color: rgb(18, 219, 51);
+color: rgb(255, 255, 255);
+text-size-adjust:initial;
+
+}
+
